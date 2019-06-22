@@ -1,49 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <title>HN Alerts!</title>
-</head>
+  </head>
 
-<body>
-    <section class="mainContainer">
-        <header>
-            <img src="../src/images/hnalerts_logo_med-03.png" alt="Hacker News Alerts logo" class="mainLogo">
-        </header>
-        <section class="mainSection">
-            <article class="about">
-                <h1>HN Alerts?</h1>
-                <p>El mundo de la tecnología está en constante y acelerada evolución, por lo que puede ser difícil
-                    mantenerse actualizado.</p>
-                <p>Sin embargo, cualquier persona que trabaje en el sector tecnológico debe estarlo.</p>
-                <p>Es por eso que existe <strong>HN Alerts</strong></p>
-                <p><strong>HN Alerts</strong> es un bot de Twitter que cada hora hace una búsqueda de las últimas
-                    noticias de <a href="https://twitter.com/hnGoolgleAlerts">Google</a> y <a
-                        href="https://twitter.com/hnFBAlerts">Facebook</a> y las tweetea.</p>
-            </article>
-            <article class="steps">
-                <h1>Entonces, ¿quieres mantenerte actualizado?</h1>
-                <p><strong>Paso 1: </strong></p>
-                <p>Ve al Twitter de HN Alerts!</p>
-                <p><strong>Paso 2: </strong></p>
-                <p>Da click en "Seguir"</p>
-                <p><strong>Paso 3: </strong></p>
-                <p>Activa las notificaciones</p>
-            </article>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="https://i.ibb.co/3yGHLkF/hn-alerts-logo-000-01.png"
+        alt="HN Alerts logo"
+      />
+      <!-- <img class="logo" src="https://i.ibb.co/5FPxWVF/hnalerts-logo-med-03.png" alt="HN Alerts logo"> -->
+    </header>
+    <div>
+      <section class="mainSection">
+        <article class="about">
+          <h1>¿HN Alerts?</h1>
+          <p>
+            El mundo de la tecnología está en constante y acelerada evolución,
+            por lo que puede ser difícil mantenerse actualizado.
+          </p>
+          <p>
+            Sin embargo, cualquier persona que trabaje en el sector tecnológico
+            debe estarlo.
+          </p>
+          <p>Es por eso que existe <strong>HN Alerts</strong></p>
+          <p>
+            <strong>HN Alerts</strong> es un bot de Twitter que cada hora hace
+            una búsqueda de las últimas noticias de
+            <a href="https://twitter.com/hnGoolgleAlerts">Google</a> y
+            <a href="https://twitter.com/hnFBAlerts">Facebook</a> y las tweetea.
+          </p>
+        </article>
+        <article class="steps">
+          <h2>Entonces, ¿quieres mantenerte actualizado?</h2>
+          <p><strong>Paso 1: </strong></p>
+          <p>Ve al Twitter de HN Alerts!</p>
+          <p><strong>Paso 2: </strong></p>
+          <p>Da click en "Seguir"</p>
+          <p><strong>Paso 3: </strong></p>
+          <p>Activa las notificaciones</p>
+        </article>
+      </section>
+      <aside>
+        <section class="alertsSection">
+          <a target="_blank" href="https://twitter.com/hnGoolgleAlerts">
+            <img
+              class="alertsLogo"
+              src="https://i.ibb.co/4F3tk8y/hn-google-alerts-04.png"
+              alt="HN Google Alerts"
+            />
+          </a>
+          <a target="_blank" href="https://twitter.com/hnFBAlerts">
+            <img
+              class="alertsLogo"
+              src="https://i.ibb.co/wKGWH7T/hn-fb-alerts-04.png"
+              alt="HN Facebook Alerts"
+            />
+          </a>
         </section>
-    </section>
-    <aside>
-        <a href="https://twitter.com/hnGoolgleAlerts">HN Google Alerts</a>
-        <a href="https://twitter.com/hnFBAlerts">HN Facebook Alerts</a>
-        <h2>¿Te gustaría contribuir?</h2>
-        <button class="donate_btn">Donar</button>
-        <a href="https://github.com/MelSkywalker/HNAlerts"><img src="../src/images/github icon.svg" alt="Repository" class="github_icon"></a>
-    </aside>
-
-</body>
-
+        <section>
+          <h3>¿Te gustaría contribuir?</h3>
+          <form
+            action="https://www.paypal.com/cgi-bin/webscr"
+            method="post"
+            target="_top"
+          >
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="9JXWY3JK2FRAS"
+            />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
+              border="0"
+              name="submit"
+              title="PayPal - The safer, easier way to pay online!"
+              alt="Donate with PayPal button"
+            />
+            <img
+              alt=""
+              border="0"
+              src="https://www.paypal.com/en_MX/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
+          </form>
+        </section>
+        <section class="repoSection">
+          <h3>Repositorio:</h3>
+          <a target="_blank" href="https://github.com/MelSkywalker/HNAlerts"
+            ><img
+              class="github_logo"
+              src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+program+programming+icon-1320192727228320913.png"
+              alt="Repository"
+              class="github_icon"
+          /></a>
+        </section>
+      </aside>
+    </div>
+  </body>
 </html>

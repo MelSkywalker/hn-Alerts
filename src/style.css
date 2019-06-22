@@ -1,10 +1,121 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: 100%;
+    background-color: #EAEAEA;
+}
+header {
+    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 8em;
+    margin: 0 20% 0 20%;
+    background-image: linear-gradient(#FF9501, #FF6039)
+}
+
+.logo {
+    height: 6em;
+    width: auto;
+    padding-right: 2em;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    height: 100%;
+    margin: 0 20% 0 20%;
     background-color: white;
 }
 
-.github_icon {
-    height: 3em;
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    margin-top: 3em;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 25%;
+    height: 100%;
+    background-color: #1DA1F2;
+}
+
+.alertsSection {
+    margin-top: 20%;
+
+}
+
+aside>section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 60%;
+    padding: 1em;
+    border-top: 3px solid white;
+}
+
+article {
+    margin: 1em 10% 0 10%;
+}
+
+.repoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.alertsLogo, .github_logo {
+    margin: 1em;
+    height: 5em;
     width: auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: #1DA1F2;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'Raleway', sans-serif;
+    color: #1DA1F2;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
