@@ -90,8 +90,14 @@ article {
     flex-wrap: wrap;
 }
 
-.alertsLogo, .github_logo {
+.alertsLogo {
     margin: 1em;
+    height: 7em;
+    width: auto;
+}
+
+.github_logo {
+    margin-left: 1em;
     height: 5em;
     width: auto;
 }
